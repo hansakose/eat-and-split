@@ -26,7 +26,7 @@ To clone and run this application, you'll need [Git](https://git-scm.com) and [N
 
 ```bash
 # Clone this repository
-$ git clone https://github.com/hansakose/step-react.git
+$ git clone https://github.com/hansakose/eat-and-split.git
 
 # Install dependencies
 $ npm install
