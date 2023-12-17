@@ -45,8 +45,6 @@ export default function App() {
   }
 
   function handleSelection(friend) {
-    //setSelectedFriend(friend);
-
     //below we want when click again close, shoul be back to null, back to initianlstate basically
     setSelectedFriend((cur) => (cur?.id === friend.id ? null : friend));
     setShowAddFriend(false);
@@ -157,7 +155,6 @@ function FormAddFriend({ onAddFriend }) {
     };
 
     onAddFriend(newFriend);
-
     setName("");
     setImage("https://i.pravatar.cc/48");
   }
